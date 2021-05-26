@@ -1,0 +1,34 @@
+{
+    "FormTable": {
+      "prefix": "jc",
+      "body": [
+        "import React from 'react';",
+        "import jc from 'jc-frame';",
+        "",
+        "function App() {",
+        "  const ${1:treeConfig} = {",
+        "    // config",
+        "    ${2:primaryColumn}: {},",
+        "    ${3:columnWidth}: 120,",
+        "    ${4:indicators}: [],",
+        "    ${5:leftDimensions}: [],",
+        "    ${6:topDimensions}: [],",
+        "    ${7:topDimensionDataSource}: {},",
+        "    ${8:leftDimensionDataSource}: {},",
+        "    ${9:dataSource}: {},",
+        "    ${10:operatorColumn}: {},",
+        "    ${11:filters}: {},",
+        "    ${12:actions}: [],",
+        "    ${13:downloadCfg}: {},",
+        "    // ${14:onSort}: (colIndex, sortOrder) => {},",
+        "    // ${15:decorateValue}: (indicatorKey, value) => {}",
+        "  };",
+        "",
+        "  return <jc {...${16:treeConfig}} />;",
+        "}",
+        "",
+        "export default App;"
+      ],
+      "description": "Code snippet for 'jc-frame codesnippets'"
+    }
+  }

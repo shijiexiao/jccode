@@ -1,0 +1,37 @@
+{
+    "name": "jc-code-snippets",
+    "displayName": "jc-code-snippets",
+    "description": "jc-code-snippets for jc-frame~",
+    "version": "0.0.1",
+    "publisher": "xiaoshijie-jc",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://jie305998@dev.azure.com/jie305998/jcode/_git/jcode",
+        "homepage": "https://jie305998@dev.azure.com/jie305998/jcode/_git/jcode/blob/master/README.md"
+    }
+}
